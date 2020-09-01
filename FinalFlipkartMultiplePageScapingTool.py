@@ -1,9 +1,13 @@
+#importing required modules
 from bs4 import BeautifulSoup
 import requests
 import csv
 import os
 import pandas as pd
+
+#using loop to go to next page
 for off in range(10):
+    #this url will change and access each page
     url="https://www.flipkart.com/search?q=iphones&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as="+str(off)
     req=requests.get(url).text
     soup=BeautifulSoup(req,features='html5lib')
