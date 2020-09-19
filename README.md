@@ -1,5 +1,5 @@
 # Web Scraping Tool
-# This Tool is built In Python with BeautifulSoup module
+This Tool is built In Python with BeautifulSoup module
 This tool create the soup of the url and fetch the data
 
 #In this tool I have scraped the product data such as Product Name,Product Price and Rating of the product.
